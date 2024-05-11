@@ -1,1 +1,7 @@
-# codebhaat
+PROBLEM STATEMENT: To make stock market trading and investment engaging and user friendly for ammmatures.
+
+APPROACH: Our project seeks to develop a Stock Recommender System that utilises machine learning to analyse historical market data and generate personalised investment and trading recommendations.Predictive models have been built which accurately capture stock performance ,industry trends,economic indicators and user preference to deliver tailored recommendtions for optimal investment strategies. User information is taken into account while considering the risk factors involved and recommending the viable portfolio accordingly.
+
+TECH STACK: tailwind,javascript,react,firebase,Python modules:Numpy,Matplotlib,Pandas,Yfinance,Pandas_ta,Scikit Learn, and Tensorflow.
+
+BASIC WORKFLOW: Using the Yfinance python module we obtained the stock data. Using Pandas_ta we acquired the required technical indicators for the stock. We processed the data we had and selected the relevant features. Using tensorflow, we created a machine learning model which predicts stock prices for the next day. A website has been developed to implement the above to guide the user to indulge in better trading options. Also, fundamental analysis of invidual stocks has been carried through using python models which essentially filters out potentially investment worthy stocks which meet the user requirements and viability, which have been taken as user input thorugh java script.
